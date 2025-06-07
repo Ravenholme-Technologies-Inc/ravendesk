@@ -1,0 +1,5 @@
+# Ignore the entire build directory
+/target
+
+# Ignore the user's notes file
+.ravendesk.json
