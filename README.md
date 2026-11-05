@@ -119,9 +119,9 @@ The implementation is intentionally small and incomplete:
 - Only adding, listing, and deleting notes are implemented.
 - There are no task-management commands, despite the broader project-oriented
   goal.
-- Notes are scoped by the current directory rather than by a configurable
-  project identity.
-- There is no edit, search, export, synchronization, or backup command.
+- A GUI & CLI application that gathers all the notes from the system, and
+  summarizes them is planned. Including LLM support for summary and diagnosis.
+- There is no edit, search, export, synchronization, or backup command yet.
 - The JSON file is rewritten when notes are added or deleted; concurrent
   writes are not coordinated.
 
